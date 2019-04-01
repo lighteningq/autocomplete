@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<!-- Binary Search AutoComplete
+	@date: mar 31, 2019 
+	@author jingwen qiang -->
+	<html>
+	<head>
+		<title>AutocComplete Binary Search</title>
+		<link rel="stylesheet"
+		type="text/css"
+		href="autocompleteStyle.css" />
+		<script type="text/javascript" src="autocomplete.js"></script>
+	</head>
+
+
+
+
+	<body>
+		<div class ="divForm">
+			<form method="post" name="myForm1">
+				<p id ="suggestion">Please input a city name:</p>
+				<input type="text" name="cityinput" id="cityinput" onkeyup="keyupHandler();" />
+			</form>
+			<div id="popup">
+				<ul id="cities_ul"></ul>
+			</div>
+
+		</div>
+	</body>
+	</html>
